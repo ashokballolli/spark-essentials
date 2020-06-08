@@ -1,9 +1,9 @@
 version: '2'
 
 services:
-  postgres:
+  postgres_spark:
     image: postgres:latest
-    container_name: postgres
+    container_name: postgres_spark
     environment:
       - "TZ=Europe/Amsterdam"
       - "POSTGRES_USER=docker"
